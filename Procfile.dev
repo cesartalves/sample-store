@@ -1,3 +1,4 @@
 web: bin/rails server
 css: bin/rails tailwindcss:watch
 admin_css: bin/rails solidus_admin:tailwindcss:watch
+css: yarn build:css --watch
