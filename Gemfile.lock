@@ -355,7 +355,7 @@ GEM
       activerecord (>= 7.2)
       activesupport (>= 7.2)
       i18n
-    rdoc (6.16.0)
+    rdoc (6.16.1)
       erb
       psych (>= 4.0.0)
       tsort
@@ -552,14 +552,16 @@ GEM
       railties (>= 6.0.0)
     stringio (3.1.8)
     stripe (8.7.0)
-    tailwindcss-rails (3.3.2)
+    tailwindcss-rails (4.4.0)
       railties (>= 7.0.0)
-      tailwindcss-ruby (~> 3.0)
-    tailwindcss-ruby (3.4.17-aarch64-linux)
-    tailwindcss-ruby (3.4.17-arm-linux)
-    tailwindcss-ruby (3.4.17-arm64-darwin)
-    tailwindcss-ruby (3.4.17-x86_64-darwin)
-    tailwindcss-ruby (3.4.17-x86_64-linux)
+      tailwindcss-ruby (~> 4.0)
+    tailwindcss-ruby (4.1.16)
+    tailwindcss-ruby (4.1.16-aarch64-linux-gnu)
+    tailwindcss-ruby (4.1.16-aarch64-linux-musl)
+    tailwindcss-ruby (4.1.16-arm64-darwin)
+    tailwindcss-ruby (4.1.16-x86_64-darwin)
+    tailwindcss-ruby (4.1.16-x86_64-linux-gnu)
+    tailwindcss-ruby (4.1.16-x86_64-linux-musl)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
     thor (1.4.0)
@@ -639,7 +641,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3
   stimulus-rails
-  tailwindcss-rails (~> 3.0)
+  tailwindcss-rails (~> 4.4)
   turbo-rails
   tzinfo-data
   view_component (~> 3.0)
