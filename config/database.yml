@@ -12,6 +12,8 @@ development:
 
 test:
   <<: *default
+  adapter: sqlite3
+  database: ":memory:"
   database: myapp_test
 
 production:
